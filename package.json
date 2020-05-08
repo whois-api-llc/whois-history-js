@@ -1,0 +1,37 @@
+{
+  "name": "whois-history",
+  "version": "1.0.0",
+  "description": "Whois History API client for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --reporter=text mocha"
+  },
+  "keywords": [
+    "whois",
+    "api",
+    "whois history",
+    "whoisxmlapi"
+  ],
+  "author": "WHOIS API, Inc",
+  "license": "MIT",
+  "dependencies": {
+    "urllib": "^2.34.2"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.3",
+    "nock": "^9.6.1",
+    "nyc": "^12.0.2",
+    "rewiremock": "^3.13.9"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whois-api-llc/whois-history-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/whois-api-llc/whois-history-js/issues"
+  },
+  "homepage": "https://github.com/whois-api-llc/whois-history-js#readme"
+}

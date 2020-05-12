@@ -22,7 +22,7 @@ Full API documentation available [here](https://whois-history.whoisxmlapi.com/ap
 
 ```javascript
 const WhoisHistoryClient = require('whois-history').Client;
-const Options = require('whoishistory/include/client').Options;
+const Options = require('whois-history/include/client').Options;
 
 let client = new WhoisHistoryClient(
     'Your API Key'
